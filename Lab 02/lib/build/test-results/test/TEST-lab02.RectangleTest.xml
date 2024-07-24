@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="lab02.RectangleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-30T01:24:40" hostname="DESKTOP-PNHM5KB" time="0.038">
+  <properties/>
+  <testcase name="[1] 3, 6" classname="lab02.RectangleTest" time="0.038"/>
+  <system-out><![CDATA[1
+2
+6
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

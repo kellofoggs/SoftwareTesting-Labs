@@ -1,0 +1,23 @@
+SENG275 Lab 01 feedback
+
+Your mark: 2/2
+
+Lab01 is worth 2% of your final grade.  To receive this mark, you must have EITHER:
+
+- attempted to add some code to ArrayUtilsTest.java - it doesn't really matter if it 
+  worked or not; you get the mark if you at least tried.  AND
+- pushed your changes back to the gitlab repository
+
+OR
+
+- submitted your code to me by email, teams, or any other method
+
+OR
+
+- if you were having technical problems, you communicated with us about them in ANY WAY
+  prior to the due date.
+
+If you submitted no new code, and didn't let us know you were having problems, you got a zero.
+
+Future labs will be marked based on whether your code works and accomplishes the goal of the
+exercises, of course.

@@ -1,0 +1,56 @@
+@############ Logging method invocation #1 on mock/spy ########
+%personService.findUsernameById(1L);
+d   invoked: -> at lab06.TodoApplicationTest.completeAllWithThreeTodos(TodoApplicationTest.java:89)
+   has returned: "null"
+
+@############ Logging method invocation #1 on mock/spy ########
+(todoService.retrieveTodos("SomeUser");
+d   invoked: -> at lab06.TodoApplicationTest.completeAllWithThreeTodos(TodoApplicationTest.java:90)
+.   has returned: "[]" (java.util.LinkedList)
+
+@############ Logging method invocation #2 on mock/spy ########
+d   stubbed: -> at lab06.TodoApplicationTest.completeAllWithThreeTodos(TodoApplicationTest.java:89)
+%personService.findUsernameById(1L);
+P   invoked: -> at lab06.TodoApplication.retrieveTodos(TodoApplication.java:57)
+0   has returned: "SomeUser" (java.lang.String)
+
+@############ Logging method invocation #2 on mock/spy ########
+d   stubbed: -> at lab06.TodoApplicationTest.completeAllWithThreeTodos(TodoApplicationTest.java:90)
+(todoService.retrieveTodos("SomeUser");
+P   invoked: -> at lab06.TodoApplication.retrieveTodos(TodoApplication.java:58)
+l   has returned: "[Wake up, Test the code, Celebrate the victory!]" (java.util.ImmutableCollections$ListN)
+
+@############ Logging method invocation #3 on mock/spy ########
+d   stubbed: -> at lab06.TodoApplicationTest.completeAllWithThreeTodos(TodoApplicationTest.java:89)
+%personService.findUsernameById(1L);
+S   invoked: -> at lab06.TodoApplication.completeAllTodos(TodoApplication.java:69)
+0   has returned: "SomeUser" (java.lang.String)
+
+@############ Logging method invocation #3 on mock/spy ########
+d   stubbed: -> at lab06.TodoApplicationTest.completeAllWithThreeTodos(TodoApplicationTest.java:90)
+(todoService.retrieveTodos("SomeUser");
+S   invoked: -> at lab06.TodoApplication.completeAllTodos(TodoApplication.java:70)
+l   has returned: "[Wake up, Test the code, Celebrate the victory!]" (java.util.ImmutableCollections$ListN)
+
+@############ Logging method invocation #4 on mock/spy ########
+&todoService.completeTodo("Wake up");
+S   invoked: -> at lab06.TodoApplication.completeAllTodos(TodoApplication.java:72)
+   has returned: "null"
+
+@############ Logging method invocation #5 on mock/spy ########
+,todoService.completeTodo("Test the code");
+S   invoked: -> at lab06.TodoApplication.completeAllTodos(TodoApplication.java:72)
+   has returned: "null"
+
+@############ Logging method invocation #6 on mock/spy ########
+todoService.completeTodo(
+    "Celebrate the victory!"
+);
+S   invoked: -> at lab06.TodoApplication.completeAllTodos(TodoApplication.java:72)
+   has returned: "null"
+
+@############ Logging method invocation #7 on mock/spy ########
+!todoService.completeTodo(null);
+d   invoked: -> at lab06.TodoApplicationTest.completeAllWithThreeTodos(TodoApplicationTest.java:95)
+   has returned: "null"
+

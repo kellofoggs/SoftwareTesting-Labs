@@ -1,0 +1,24 @@
+Which standards tool did you use?
+
+I used Google lighthouse for the BrightSpace main page test.
+
+
+
+Name any one test that passed, and describe why that test is important, in your own words.
+What would be the problem if the test had failed?
+
+The accessibility test passed. Namely, the linked texts had discernible and unique names. This allows
+for easier navigation for screen read users. Had this test not passed those who use screen reader
+(i.e. the visually impaired or people who struggle to read would be unable to efficiently use the site.
+
+
+
+
+Name any one test that failed (yellow or red) and explain why the failed test suggest
+there's a problem with the website.  Who is it a problem for?  What kinds of obstacles
+could this issue present?
+
+The performance tests failed with a score of 55. This type of failure effects all users of the website as
+it means that it takes a main page user a longer time to accomplish whatever they are on the site for. An issue found by the test
+is that many JavaScript scripts and loading scripts were not required at all times but still contributed to
+network activity traffic.

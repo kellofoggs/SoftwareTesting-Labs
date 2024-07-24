@@ -1,0 +1,26 @@
+Exploratory testing report:
+
+Bug number: 1
+Software version: 1.0
+Initial state of the system: System is active with user signed in
+Steps to reproduce: User selects withdraw from checking account and selects option for 20 dollar withdrawal
+Expected outcome: User is given 20 dollars and 20 dollars is removed from their account
+Actual outcome: User is given 40 dollars and 40 dollars is removed from their account
+Fixed in version 1.1? Yes
+
+Bug number: 2
+Software version: 1.0
+Initial state of the system: System is active with user signed in
+Steps to reproduce: User clicks check balance and selects money market.
+Expected outcome: Displayed the proper balance in money market
+Actual outcome: Says unknown error or ATM screen and shows 500$ in gray space
+Fixed in version 1.1? Yes
+
+Bug number: 3
+Software version: 1.0
+Initial state of the system: System is active with user signed in
+Steps to reproduce:
+Expected outcome: Ask user if they would like to do another transaction
+Actual outcome: Asks user "wood you like to do another transaction?" (typo)
+Fixed in version 1.1? Yes
+

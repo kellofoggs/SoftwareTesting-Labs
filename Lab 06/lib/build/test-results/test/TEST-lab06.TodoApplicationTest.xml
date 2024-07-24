@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="lab06.TodoApplicationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-06T07:58:02" hostname="DESKTOP-PNHM5KB" time="0.608">
+  <properties/>
+  <testcase name="completeAllWithThreeTodos()" classname="lab06.TodoApplicationTest" time="0.608"/>
+  <system-out><![CDATA[############ Logging method invocation #1 on mock/spy ########
+personService.findUsernameById(1L);
+   invoked: -> at lab06.TodoApplicationTest.completeAllWithThreeTodos(TodoApplicationTest.java:89)
+   has returned: "null"
+
+############ Logging method invocation #1 on mock/spy ########
+todoService.retrieveTodos("SomeUser");
+   invoked: -> at lab06.TodoApplicationTest.completeAllWithThreeTodos(TodoApplicationTest.java:90)
+   has returned: "[]" (java.util.LinkedList)
+
+############ Logging method invocation #2 on mock/spy ########
+   stubbed: -> at lab06.TodoApplicationTest.completeAllWithThreeTodos(TodoApplicationTest.java:89)
+personService.findUsernameById(1L);
+   invoked: -> at lab06.TodoApplication.retrieveTodos(TodoApplication.java:57)
+   has returned: "SomeUser" (java.lang.String)
+
+############ Logging method invocation #2 on mock/spy ########
+   stubbed: -> at lab06.TodoApplicationTest.completeAllWithThreeTodos(TodoApplicationTest.java:90)
+todoService.retrieveTodos("SomeUser");
+   invoked: -> at lab06.TodoApplication.retrieveTodos(TodoApplication.java:58)
+   has returned: "[Wake up, Test the code, Celebrate the victory!]" (java.util.ImmutableCollections$ListN)
+
+############ Logging method invocation #3 on mock/spy ########
+   stubbed: -> at lab06.TodoApplicationTest.completeAllWithThreeTodos(TodoApplicationTest.java:89)
+personService.findUsernameById(1L);
+   invoked: -> at lab06.TodoApplication.completeAllTodos(TodoApplication.java:69)
+   has returned: "SomeUser" (java.lang.String)
+
+############ Logging method invocation #3 on mock/spy ########
+   stubbed: -> at lab06.TodoApplicationTest.completeAllWithThreeTodos(TodoApplicationTest.java:90)
+todoService.retrieveTodos("SomeUser");
+   invoked: -> at lab06.TodoApplication.completeAllTodos(TodoApplication.java:70)
+   has returned: "[Wake up, Test the code, Celebrate the victory!]" (java.util.ImmutableCollections$ListN)
+
+############ Logging method invocation #4 on mock/spy ########
+todoService.completeTodo("Wake up");
+   invoked: -> at lab06.TodoApplication.completeAllTodos(TodoApplication.java:72)
+   has returned: "null"
+
+############ Logging method invocation #5 on mock/spy ########
+todoService.completeTodo("Test the code");
+   invoked: -> at lab06.TodoApplication.completeAllTodos(TodoApplication.java:72)
+   has returned: "null"
+
+############ Logging method invocation #6 on mock/spy ########
+todoService.completeTodo(
+    "Celebrate the victory!"
+);
+   invoked: -> at lab06.TodoApplication.completeAllTodos(TodoApplication.java:72)
+   has returned: "null"
+
+############ Logging method invocation #7 on mock/spy ########
+todoService.completeTodo(null);
+   invoked: -> at lab06.TodoApplicationTest.completeAllWithThreeTodos(TodoApplicationTest.java:95)
+   has returned: "null"
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

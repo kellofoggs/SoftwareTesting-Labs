@@ -1,0 +1,27 @@
+Pair/scripted testing report:
+Partner name (if any):
+
+Bug number: 1
+Software version: 1.0
+Initial state of the system: Balance = 0 dollars, 100 dollars has been input as deposit, System is requesting that customer insert an envelope
+Steps to reproduce: Insert an envelope with the money
+Expected outcome: Total balance goes to 100 dollars
+Actual outcome: Total balance is 90 dollars
+Fixed in version 1.1? Yes although 10 cents is removed from total balance
+
+Bug number: 2
+Software version: 1.0
+Initial state of the system: System is displaying request for customer to type a dollar amount for transfer from checking to savings
+Steps to reproduce: Enter 10 cents as amount of transfer
+Expected outcome: 10 cents should be moved from checking account to savings account
+Actual outcome: 10 cents moved from savings account to checking account
+Fixed in version 1.1? No
+
+Bug number: 3
+Software version: 1.0
+Initial state of the system:Request to re-enter pin is being delayed, first attempt was invalid
+Steps to reproduce: Enter incorrect PIN first time then correct pin
+Expected outcome: Signed into account and allowed to do functions
+Actual outcome: Prompted to enter PIN again
+Fixed in version 1.1? No
+

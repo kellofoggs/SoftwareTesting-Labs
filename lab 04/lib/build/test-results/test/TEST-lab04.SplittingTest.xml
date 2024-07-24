@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="lab04.SplittingTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-03-07T05:42:43" hostname="DESKTOP-PNHM5KB" time="0.076">
+  <properties/>
+  <testcase name="[1] A null array, false, null" classname="lab04.SplittingTest" time="0.064"/>
+  <testcase name="[2] An empty array thats been initialized, false, []" classname="lab04.SplittingTest" time="0.002"/>
+  <testcase name="[3] An array with all of the same element and odd number of elements, false, [10, 10, 10]" classname="lab04.SplittingTest" time="0.001"/>
+  <testcase name="[4] An array whose sum is odd, false, [10, 3, 2]" classname="lab04.SplittingTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

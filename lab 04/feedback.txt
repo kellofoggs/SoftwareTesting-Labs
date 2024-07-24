@@ -1,0 +1,14 @@
+SENG275 Lab 04 feedback
+
+Your mark: 0/2
+
+No student code submitted.
+
+Lab 04 is worth 2% of your final grade
+
+Rubric: Sufficient tests were written to approach 100% branch coverage of any two of:
+
+CollectionUtils.containsAny()
+Splitting.canBalance()
+WordUtilities.swapCase()
+

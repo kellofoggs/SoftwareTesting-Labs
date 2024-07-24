@@ -1,0 +1,2475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="a3.A3Test" tests="15" skipped="0" failures="0" errors="0" timestamp="2023-03-31T01:01:38" hostname="DESKTOP-PNHM5KB" time="1.987">
+  <properties/>
+  <testcase name="thousandValidNumbers" classname="a3.A3Test" time="0.717"/>
+  <testcase name="thousandInvalidLeadingLetters" classname="a3.A3Test" time="0.257"/>
+  <testcase name="[1] A12345678" classname="a3.A3Test" time="0.845"/>
+  <testcase name="[2] null" classname="a3.A3Test" time="0.002"/>
+  <testcase name="[3] V12345678910" classname="a3.A3Test" time="0.003"/>
+  <testcase name="[4] V213zxchj" classname="a3.A3Test" time="0.003"/>
+  <testcase name="[1] V11111111, Andy Apple, Andy Apple" classname="a3.A3Test" time="0.009"/>
+  <testcase name="[2] V22222222, Betty Banana, Betty Banana" classname="a3.A3Test" time="0.003"/>
+  <testcase name="[3] V33333333, Cathy Cantaloupe, Cathy Cantaloupe" classname="a3.A3Test" time="0.004"/>
+  <testcase name="[4] V44444444, Donald Durian, Donald Durian" classname="a3.A3Test" time="0.003"/>
+  <testcase name="[1] V51111111, Ahndy Apple" classname="a3.A3Test" time="0.007"/>
+  <testcase name="[2] V52222222, Bhetty Banana" classname="a3.A3Test" time="0.003"/>
+  <testcase name="[3] V53333333, Chathy Cantaloupe" classname="a3.A3Test" time="0.003"/>
+  <testcase name="[4] V54444444, Dhonald Durian" classname="a3.A3Test" time="0.002"/>
+  <testcase name="testNoConnection()" classname="a3.A3Test" time="0.005"/>
+  <system-out><![CDATA[V44157563
+V12015153
+V68059506
+V50040307
+V60461512
+V72408013
+V15558011
+V93883453
+V90366575
+V99470995
+V53870298
+V17457834
+V74886448
+V77818577
+V19057012
+V38036874
+V37706264
+V64320938
+V64613690
+V13500585
+V43885151
+V23241308
+V77732745
+V77335671
+V46541769
+V44783933
+V41454712
+V29855257
+V42944037
+V64114529
+V75840356
+V92118972
+V38130637
+V59809242
+V33103916
+V46952784
+V77949894
+V66127991
+V22535652
+V59430181
+V46658921
+V38246905
+V69515440
+V96995048
+V10592454
+V79915276
+V59260042
+V85560196
+V82014381
+V24240363
+V59059034
+V48352732
+V38946561
+V55082108
+V31268265
+V77306748
+V59791908
+V22577216
+V84829912
+V49493024
+V80471117
+V35049633
+V75005387
+V23643106
+V36585834
+V79159617
+V71148727
+V33212230
+V98005894
+V51375534
+V33717840
+V24868391
+V33207912
+V86397264
+V74980128
+V37490834
+V95998640
+V11689508
+V27028537
+V64608277
+V54821425
+V22785601
+V51707047
+V20107123
+V97522137
+V40196207
+V69109165
+V66065405
+V89507792
+V76589284
+V41311262
+V77793019
+V51201762
+V26206846
+V49015120
+V52000303
+V25068725
+V77997275
+V69440785
+V13659510
+V46980335
+V84217731
+V38984807
+V27974580
+V44675310
+V53667674
+V17113423
+V32173963
+V48445634
+V51584856
+V38179391
+V37371205
+V33980340
+V59333823
+V85538965
+V36106868
+V86765770
+V25798702
+V38225884
+V55593721
+V68517004
+V14570772
+V42812784
+V94586362
+V21566005
+V99054824
+V17079850
+V70911511
+V35130363
+V33711501
+V84064963
+V15087666
+V61205101
+V40828129
+V82529838
+V10594557
+V67353300
+V54456112
+V16407125
+V21106455
+V18729645
+V64220292
+V61363950
+V53537380
+V79119818
+V44340643
+V23123733
+V58790294
+V80862974
+V55356812
+V69513580
+V97530431
+V44244302
+V42970045
+V19012005
+V80745521
+V74606628
+V61537185
+V58632747
+V50092138
+V71781462
+V21232676
+V96952784
+V17626677
+V82396991
+V66360393
+V72403430
+V65254120
+V99840791
+V34873329
+V98619093
+V89737685
+V19094685
+V37150449
+V83667332
+V14432348
+V48150874
+V46795867
+V52491502
+V83689133
+V67711991
+V37674059
+V67194652
+V59488840
+V68224562
+V63067270
+V36082711
+V49063780
+V65119283
+V78564753
+V49571728
+V27156067
+V23904123
+V60914648
+V25329817
+V62264624
+V36214422
+V77540822
+V99095428
+V36882601
+V47940095
+V32201085
+V44545466
+V32099243
+V48659339
+V13679175
+V76841860
+V11268790
+V74324646
+V33715771
+V70134039
+V41707327
+V20345123
+V42203867
+V39930965
+V46564855
+V38890563
+V55108616
+V28806677
+V95008610
+V35491237
+V63692250
+V72770511
+V72400744
+V64869563
+V91259185
+V36249440
+V71790014
+V30470854
+V67356359
+V30280192
+V90247859
+V21392344
+V48340944
+V27334292
+V69265675
+V21690312
+V74261453
+V58199092
+V18405931
+V77384104
+V32911265
+V64124970
+V23891942
+V21626076
+V65498394
+V40052467
+V55845582
+V66309858
+V40580467
+V45603526
+V84024330
+V11276042
+V54873671
+V42635812
+V84865238
+V68725786
+V61434937
+V77710031
+V97813446
+V58143393
+V63187906
+V72574180
+V96449743
+V97649501
+V22373767
+V23321320
+V61996397
+V92087372
+V28329721
+V20765600
+V83187676
+V97949133
+V44860448
+V37487491
+V19341237
+V32619442
+V98678630
+V77798942
+V64041526
+V26744565
+V63288223
+V58875558
+V92510982
+V53783828
+V25122831
+V40611377
+V75420602
+V63345945
+V53557193
+V94295152
+V39491097
+V92976495
+V43668596
+V12473214
+V10419535
+V68771068
+V50498718
+V45921188
+V66004094
+V53165566
+V12848032
+V99540963
+V41775039
+V94088468
+V18671610
+V63440773
+V93564967
+V61199435
+V21805493
+V73970825
+V41390560
+V54721104
+V49193725
+V34554050
+V63131776
+V98259166
+V19952181
+V41248350
+V70521941
+V49785654
+V42502288
+V38945119
+V36997839
+V83925625
+V84006461
+V73466897
+V30932735
+V43758548
+V68769885
+V10961635
+V87674413
+V20364205
+V62985997
+V26379265
+V75591864
+V62367611
+V27457701
+V28840457
+V52442808
+V99895888
+V95873502
+V94823389
+V54930117
+V33521153
+V83522102
+V16973424
+V19478088
+V86039056
+V99492546
+V47400442
+V84139731
+V67896954
+V37043917
+V11614223
+V86461889
+V66992893
+V77825248
+V18070115
+V63411874
+V28338257
+V54433701
+V48421680
+V56340135
+V69869774
+V64917404
+V30921434
+V50550117
+V81832967
+V87998282
+V40433328
+V89489815
+V60083869
+V98754763
+V71078948
+V56875439
+V92725621
+V16153512
+V80275133
+V52422511
+V38808816
+V31575692
+V68194634
+V57107954
+V62939128
+V68520891
+V79727957
+V32300563
+V22785278
+V76374089
+V64486438
+V85371852
+V18228817
+V15911149
+V69856914
+V89278157
+V99262055
+V20183596
+V37356541
+V92334075
+V61111173
+V74818510
+V60240539
+V98109683
+V63091563
+V37256551
+V74261292
+V79141945
+V61859512
+V75502935
+V99397422
+V45205149
+V72365038
+V25457956
+V91704930
+V99940202
+V39634113
+V35613388
+V40325295
+V67012414
+V66272250
+V43512229
+V11779573
+V31461388
+V82430388
+V68058705
+V91211169
+V76100323
+V87168643
+V94535212
+V90821126
+V44492680
+V59521753
+V20671250
+V31762731
+V89481176
+V57459378
+V88033991
+V45041152
+V96894289
+V91649060
+V87672863
+V67081587
+V79917868
+V62714951
+V88443788
+V45174868
+V57084339
+V62376560
+V74073020
+V88385976
+V40949770
+V85331696
+V45726577
+V88640859
+V11209265
+V60281021
+V96236870
+V88341974
+V92165427
+V21254900
+V36896962
+V12747384
+V16113013
+V21937625
+V99203074
+V97982891
+V96829939
+V92448399
+V14973719
+V78754870
+V39712787
+V29731871
+V39449847
+V86912836
+V27115141
+V21562089
+V51881889
+V41268558
+V69501120
+V58892079
+V57884483
+V11476616
+V27126716
+V23350994
+V32057481
+V42303521
+V98556301
+V65991006
+V67971411
+V51082762
+V15084429
+V24169145
+V43764597
+V65506025
+V42222857
+V53066436
+V17412567
+V51976927
+V69426905
+V59775838
+V43300291
+V39464444
+V15040583
+V31656626
+V62782006
+V31607354
+V26446972
+V43124686
+V19731056
+V94599659
+V66729827
+V34030856
+V97852010
+V98456017
+V33144188
+V32323541
+V86123853
+V87104523
+V89259985
+V22575311
+V54833538
+V83977920
+V58569326
+V84765297
+V37134540
+V58832421
+V85701450
+V44302410
+V40533736
+V73159601
+V64698587
+V38850401
+V10440313
+V82657763
+V17567644
+V56638142
+V59098177
+V60400141
+V93788788
+V39590802
+V12494222
+V21171521
+V60211084
+V39564092
+V68735902
+V35853292
+V19798944
+V31523884
+V48029249
+V42658958
+V21944421
+V17811823
+V54694243
+V48323720
+V21175085
+V87773196
+V10775680
+V30635198
+V69386974
+V99094131
+V28152867
+V91017338
+V97551264
+V26222881
+V52188090
+V11586373
+V12646017
+V50371284
+V63632586
+V34789904
+V42810409
+V62371007
+V90652295
+V39764587
+V24352128
+V76142814
+V43120067
+V78119359
+V26048233
+V12525297
+V44501475
+V39263849
+V62147707
+V55607081
+V16176570
+V65023708
+V55215455
+V76001792
+V27780007
+V34339633
+V89208908
+V49307433
+V83385558
+V62542049
+V86736563
+V26945071
+V13905155
+V43302212
+V99959942
+V67110473
+V39570080
+V73378180
+V52125245
+V66176092
+V85412969
+V96802042
+V76315831
+V94377413
+V57018757
+V46256234
+V35458808
+V61369860
+V41049015
+V20535678
+V69328667
+V97653439
+V90175313
+V80333599
+V40417502
+V78050489
+V56786394
+V38552079
+V73507286
+V63733089
+V39504268
+V84385898
+V90765625
+V92907700
+V19536655
+V53682533
+V39752721
+V78186177
+V95523048
+V52932054
+V72529241
+V73268179
+V25845285
+V88150420
+V81537486
+V53136563
+V75302062
+V64168297
+V69346856
+V85705797
+V97748180
+V60403538
+V29880783
+V44512434
+V94229378
+V32004508
+V51571584
+V27988475
+V48096066
+V88833478
+V46302537
+V86432079
+V22393990
+V17249459
+V93149757
+V30634552
+V56271419
+V37493110
+V27819457
+V12208380
+V61632469
+V15443812
+V49396847
+V23748909
+V44604069
+V78688163
+V24606713
+V41559646
+V90599563
+V27581018
+V46340439
+V54222551
+V66389400
+V69491145
+V66932972
+V59503937
+V90880609
+V27374278
+V62028107
+V48857999
+V21917300
+V44729008
+V76570148
+V89672612
+V93361939
+V98738624
+V68957736
+V38245585
+V59599297
+V60583052
+V90036405
+V72504401
+V46294117
+V63093378
+V49858512
+V50800044
+V36543065
+V91822162
+V71511320
+V76954626
+V33354206
+V29180129
+V71339143
+V42929690
+V25778435
+V47941676
+V16684181
+V44199368
+V91236732
+V55523433
+V77809798
+V11784980
+V39101767
+V44614531
+V44940882
+V18450636
+V58679181
+V98964605
+V72944570
+V20166865
+V74401272
+V97419166
+V89664911
+V40097719
+V41119972
+V78469383
+V68952981
+V93219157
+V60530310
+V71804089
+V51999188
+V43755289
+V58265417
+V71866158
+V26340721
+V40303701
+V66576850
+V92575316
+V55933360
+V50881057
+V44217732
+V65294653
+V27549563
+V28185649
+V25282966
+V52007288
+V38433362
+V80019498
+V65751662
+V50057761
+V52885609
+V83185787
+V79118143
+V84986630
+V30728500
+V45522502
+V65136923
+V28902998
+V99390736
+V77700194
+V83667238
+V96959270
+V27038872
+V71633582
+V64011216
+V80783635
+V53288963
+V37213032
+V84325265
+V43444818
+V55630310
+V57966652
+V28952432
+V34636173
+V15749614
+V64297313
+V18263837
+V63765536
+V57624103
+V36499157
+V80401695
+V50740923
+V91959328
+V61394209
+V81379443
+V39670544
+V63480172
+V33530819
+V27802440
+V11717258
+V39442526
+V72520777
+V73119583
+V16102487
+V53267252
+V31191399
+V60910608
+V28259995
+V21838339
+V24757865
+V10040693
+V88097743
+V95758901
+V32271218
+V71923859
+V41507732
+V86703948
+V43579185
+V43019747
+V13636143
+V12061659
+V50252849
+V46209440
+V39991249
+V58227366
+V80411678
+V67653940
+V96210496
+V40146495
+V18936330
+V13258450
+V21121673
+V45776824
+V37713221
+V24259992
+V24171186
+V94299646
+V30761754
+V84280223
+V54906527
+V56852037
+V67799849
+V69597974
+V22810028
+V21193339
+V89483345
+V40484071
+V93023883
+V26590810
+V87549488
+V73443387
+V24610801
+V36720951
+V27852196
+V51693841
+V24537000
+V15268949
+V10033432
+V90632715
+V27531004
+V75678163
+V24457161
+V42466352
+V82182210
+V99737415
+V62648449
+V77926316
+V39301792
+V64453680
+V52551745
+V75780855
+V72694602
+V71705978
+V94477217
+V15010682
+V69966760
+V20362352
+V57867354
+V76201887
+V36698827
+V36366381
+V24200825
+V72307622
+V41930262
+V26797021
+V82795340
+V86433435
+V62471402
+V37062094
+V65148353
+V80930910
+V43354198
+V86716889
+V73947758
+V81718315
+V43840002
+V76791358
+V59867793
+V29330345
+V52716498
+V89447526
+V93780056
+V38453073
+V78302695
+V88818428
+V53683660
+V51469770
+V92792781
+V20425452
+V82085683
+V98682708
+V52908921
+V33100451
+V25639852
+V31050777
+V32842747
+V28843256
+V42620347
+V67783331
+V83650939
+V44687359
+V96441363
+V94250095
+V77474796
+V25502523
+V21176997
+V67114297
+V40298084
+V20711331
+V38218046
+V59315474
+V89805628
+V30695767
+V72139691
+V71136559
+V86921285
+V95656309
+V36778293
+V56705921
+V70063066
+V31576082
+V36259606
+V44644993
+V22770142
+V50618319
+V11438404
+V20010091
+V91615619
+V54622470
+V12169465
+V59768600
+V10213443
+V79864541
+V75797810
+V91078165
+V71676402
+V39822222
+V82193772
+V13101441
+V77012192
+V44309120
+V94704316
+V98223523
+V77363639
+V76218588
+V54625338
+V93471034
+V19746069
+V80133938
+V80808027
+V60310889
+V41614680
+V98719425
+V85375576
+V23729619
+V14455013
+V51319380
+V58385446
+V95893474
+V91938478
+V83796621
+V89161299
+V49202867
+V34533458
+V64524837
+V45949261
+V60379260
+V29259851
+V11732664
+V72298647
+V27104553
+V82602907
+V26889750
+V65398761
+V26820715
+V92449495
+V81355691
+V81855336
+V95207829
+V41621968
+V56038847
+V23505278
+V92163228
+V98145900
+V44100510
+timestamp = 2023-03-30T18:01:38.891728200, A3Test:thousandValidNumbers = 
+                              |--------------------jqwik--------------------
+tries = 1000                  | # of calls to property
+checks = 1000                 | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = PREVIOUS_SEED | use the previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 0          | # of all combined edge cases
+edge-cases#tried = 0          | # of edge cases tried in current run
+seed = -7562109129641867497   | random seed to reproduce generated values
+
+
+t14704468
+s85558263
+i41015832
+d60805164
+x19817131
+p18683379
+i76944225
+n92211968
+c67147783
+t92773796
+o55031813
+f76642374
+z48922925
+r56924984
+s35494058
+b62287518
+e58516168
+x59038647
+z53574434
+h10728653
+g65748878
+b11924171
+a98716447
+n23223391
+p40705088
+e76764592
+b90640058
+p37763732
+n27550555
+e40762474
+d18641337
+g20224293
+e25397927
+d31306385
+b37711713
+b68657089
+t27135978
+i69412966
+b30362017
+p26257496
+b11821755
+d35889353
+h20336445
+k44672073
+p82338971
+c84487471
+v49731977
+o97583302
+n36408717
+e78432685
+m98295350
+d53551869
+b60248983
+a43707726
+r72819617
+b76014007
+l64312379
+o88455693
+n85611902
+s53477533
+u57204395
+j77427387
+z77919727
+g52874151
+b89018536
+a57121741
+t19388428
+q44075348
+z65044649
+a47055057
+f54232739
+p29317855
+c60194198
+z50233841
+f55416391
+w92427721
+b88318700
+r41490502
+d51383342
+p73454292
+i94754670
+m88179232
+z79228618
+t36550045
+w80483757
+v29695036
+b56288262
+s23433244
+b89848017
+i63752370
+f43620992
+e20852990
+c29949534
+m95589411
+i84024398
+j60415100
+l31423217
+m57755269
+g86245699
+j82794402
+w13872442
+l12836146
+x83508117
+a16701959
+f78221668
+u54439347
+p98596420
+g71960244
+k57995146
+i23784079
+b27282199
+u93523418
+g33078897
+t87062330
+a22218771
+a76477619
+t81243221
+a10401432
+t35220906
+w35391020
+r66205480
+n82651400
+y95664629
+f10695039
+e86608158
+q92525532
+a17265078
+p93199047
+a27620847
+l53072263
+k22879612
+z63520124
+x30266219
+g71500424
+a98107173
+e93505870
+e65298476
+j89858260
+w46102560
+t56199734
+a52530942
+j16004181
+w60715356
+e25698804
+j76867136
+r54616652
+z62398680
+i17202737
+o28494513
+a54983187
+q47829782
+u23192766
+a35852262
+s29698665
+h43113723
+g46994762
+a18965567
+x47181820
+f71618496
+j10849439
+k17655759
+q93738210
+u74529087
+f52307258
+l72856517
+e97866814
+w93989218
+s61723976
+z95543842
+a58280863
+r66619255
+c44937205
+f39304855
+a87360985
+d85331295
+l26460138
+n20279737
+e28198449
+r33636918
+s88572308
+a51261910
+m56490640
+v14759921
+n10278901
+t41562490
+m89246306
+j78416693
+r14846268
+q32838084
+b99663411
+n90167407
+l69423169
+h63097812
+n30341567
+n27607337
+l72692218
+p47550517
+i14990077
+j28606938
+o58862400
+h76820904
+c61417793
+m51587046
+e95032902
+r42227834
+y82476893
+j91192283
+t22623081
+m28255984
+z98915204
+q98671308
+c11723420
+s74962622
+j13011436
+b96979470
+z84154992
+b12790950
+c65912397
+g15701682
+m56824095
+e35909501
+w16902347
+i66022377
+h53706407
+c37133044
+i93076501
+s74368304
+t32592783
+h48060384
+c61816822
+f66146545
+w87097023
+m60297575
+o37635880
+y78228306
+d49961321
+q86906875
+z98958274
+w95945426
+s43961297
+m86608706
+t15265992
+b99084674
+w27205942
+a77543835
+e13314912
+z12528887
+e26485111
+b87659622
+k98316015
+h31201078
+h36652304
+y93404325
+j32223894
+r35540293
+n95525353
+l11743887
+p39685402
+s52253380
+w99440629
+y71988595
+l26409827
+f38192578
+o92528486
+g26278413
+w12004360
+f74232781
+a95254366
+w53127414
+k11182256
+a41759719
+o89690865
+g52761363
+y75234725
+g48432648
+j56286358
+p20815699
+u95305072
+i44390525
+d93194926
+f18498876
+l70746760
+g87474977
+p87691448
+z67281437
+h52549173
+x55165537
+l68267018
+r89278471
+u95581445
+v75965368
+d92848315
+g77726853
+s35544958
+o86649436
+z10697386
+r35315092
+e50703224
+p73995288
+a22534046
+z11791527
+o29427957
+q26174503
+m41016815
+c22617637
+d77369969
+h56485831
+e49596358
+d81841722
+v33995452
+s50695064
+a61874296
+p22122997
+u35579651
+z49561000
+b32686573
+t37606837
+m54990997
+q47161440
+z84159415
+q12627095
+h35637545
+o48123940
+q11983382
+j59929464
+z54981974
+o62454761
+s45902370
+z85420618
+k61286574
+s54143744
+p69584919
+f13108809
+i46832648
+h60274150
+b10199147
+b59105167
+u95091337
+g89519663
+i18989874
+n18260337
+g19983679
+v44189695
+r64088763
+y13901887
+h88969622
+f78232219
+i78288793
+y81766588
+k23266502
+c61735870
+q79875408
+c62636589
+x97935387
+w94190387
+z17096888
+e53041226
+a32481607
+f92690242
+o10967594
+r19099352
+a95997457
+o13219068
+i30155903
+y73474139
+n81115266
+r46758146
+u88444740
+k98579556
+a18161668
+f17858960
+g55725321
+f80142806
+r31674295
+s95059675
+r11834190
+x45849996
+j63978737
+l24291700
+a32985136
+d42901077
+v73387756
+u23854311
+k51227848
+k54034297
+y76045629
+y14232910
+z65631437
+j34709106
+e14567655
+f88281852
+g17753700
+y38180900
+d28787758
+j19121852
+d77740938
+j48765837
+a70574898
+j94091018
+i46185495
+v32842982
+z94049928
+f11445679
+g55704194
+o42812801
+c79851795
+n76367180
+s91851572
+s80666136
+p88875068
+c86642198
+q85708208
+h65263886
+y90728050
+a52854613
+h77184063
+i84948878
+z93782058
+q10780386
+c58657659
+d39907893
+x12236475
+h74971508
+v28237217
+a10203134
+w21218093
+t94843719
+c71378910
+c89484211
+i58532891
+v45567244
+u63314982
+s97303503
+h58107592
+h86976867
+e63612135
+w77145796
+o96344169
+m13008523
+o19534263
+k80147690
+m97253892
+l23571942
+z14438862
+u38809999
+e49969792
+h16167027
+a94014926
+n88830871
+e95220070
+s26686321
+j51605534
+l92739721
+f89861695
+h76391687
+b58830790
+b29548398
+g36455520
+g47610635
+c51349857
+b65663744
+y42225292
+y79558826
+a50784825
+q73176318
+g36063860
+e67387643
+e32362764
+p72499965
+b13892965
+j64074128
+r58874978
+d70770407
+z25582641
+c59306199
+c74956918
+g69754079
+l26306430
+l68707282
+s70556597
+g39120110
+i56461190
+y23878066
+x40247323
+u66623257
+n88093843
+e97652062
+i65756783
+z44471439
+h19573793
+v57892668
+a23795079
+l85071137
+m13074348
+q44634341
+o70690275
+d28651343
+k27174249
+t71579576
+z95400557
+p54100534
+g68336266
+s19086120
+x10996397
+x38814676
+b61033695
+h77336108
+c28561288
+z87420040
+u85954143
+s59391156
+r45519536
+b94885362
+j45236049
+o32132623
+f19763941
+b99709457
+g65641407
+k45617674
+y60976066
+g17227944
+z92943404
+c38251743
+a55261277
+m82246592
+j98862419
+l97857268
+j26387126
+e16265985
+n58729197
+t24015880
+h79761129
+b80519944
+x19919075
+s80768283
+j83547382
+f48661591
+g17116055
+l71256922
+d83982870
+p64179593
+m70764356
+i35882043
+z25148253
+t82826273
+f16904937
+m33479836
+k40707682
+b62864839
+b13263586
+c55628616
+k80478513
+j13915006
+a91447178
+y45229621
+a69450865
+w46553335
+m40548310
+c28523401
+e84265965
+g93513690
+h23627823
+j52209212
+t30853763
+h13629745
+x49274167
+c29406545
+z70753819
+b15634375
+y19045421
+b40410474
+a53429928
+m56347296
+g93222081
+x34537950
+c72902409
+v44326627
+y87368775
+f75495802
+m88558936
+x12090676
+l63407019
+g63926916
+a38138262
+m93159600
+d35762222
+w77813602
+z80579544
+k29558611
+u20645023
+k20334817
+w49396028
+h49184606
+q89069174
+i46985632
+f47388450
+d44756913
+s79053499
+a20782820
+e72672526
+f74721244
+g93470273
+w60438716
+z25861873
+l22347302
+n37944196
+z94683381
+g96355698
+a28463425
+h60644620
+j72403995
+y25860397
+f79588004
+b84798007
+m41115772
+t94911187
+k84897007
+u82569929
+d31834272
+i20960054
+y21602130
+m81353931
+m36309863
+o26093190
+y24375194
+v78843612
+a47191965
+o73384238
+f19056801
+m53302104
+g71772513
+j14214862
+f47677584
+y40612309
+k82191918
+c79995616
+x60435028
+r14302673
+m99883074
+g89349745
+b89067839
+m10433011
+l56246647
+p67815958
+v85963172
+x61821959
+a92342064
+s44544806
+y51968453
+a74213252
+c54916581
+c54245796
+j33491824
+c57767804
+g88944451
+k22106933
+a38714121
+r16187433
+q71616547
+o53010169
+y89851140
+i37311327
+s54109461
+b58554538
+l75336450
+g33739418
+m77443816
+x44947490
+u94090533
+q73640395
+v93890398
+m50485791
+j20438634
+e10960653
+p50120350
+w75254914
+v80293215
+w71366869
+t99294916
+e96769421
+r74897045
+w27904610
+q64412448
+h78020573
+a51359743
+l79896986
+m89203331
+g15056964
+z25895710
+g61258434
+e53641521
+u98533338
+a24978873
+e73334260
+d82072820
+f92396596
+y79158289
+n98502414
+z91751340
+q74519327
+v28640713
+a77587549
+i71437011
+d23799224
+h46845055
+d70771358
+c60257426
+x26873119
+k76530223
+u40278369
+z45655605
+r53214439
+o49880850
+u47105296
+n18424222
+h15257810
+z69409977
+i26405001
+d42569503
+o36308029
+u45614816
+e67722565
+r15740399
+a85986387
+u43481310
+y65716417
+a55243791
+h59708848
+q99231523
+i31391982
+g96001409
+b15558054
+c36580157
+z67837972
+k99890982
+s57690276
+h34387052
+c52751698
+z37031201
+r69287724
+h28861374
+n85398999
+a90695086
+p19488836
+n54232974
+k18725133
+z11550374
+b85983848
+g91631408
+e88362731
+k30246200
+f17187811
+x92508003
+f32343877
+f15504310
+f56194150
+v52261980
+l93350396
+i39662693
+a13408141
+a91319271
+c33374450
+g93430213
+z42249480
+e92678941
+b26982640
+b81965290
+p75643126
+n87902623
+x61991903
+m48812777
+j57432222
+b90585108
+f85777997
+p72005030
+t64035039
+a66316316
+i45397061
+d33342271
+z36064790
+h28673520
+p95721958
+z73943897
+p83759926
+a32261452
+m93373912
+m62038837
+c66091316
+u52284891
+d12511881
+y46412501
+u85868986
+e87378503
+r38541099
+w72785342
+z17572743
+x45196831
+p51531817
+a23557015
+n70505665
+l21128613
+j30554103
+m38436038
+o72881651
+n88552692
+x92549886
+s97416191
+j71579654
+n28151666
+a67335686
+q98933513
+z25445060
+u60020233
+k82421512
+s77085092
+h70795004
+x10043304
+p34899550
+d71587434
+p18340236
+x45952785
+u22051821
+c90405487
+s41879118
+p59762786
+f74416190
+x13930657
+o74073681
+f82353858
+i38903762
+z59046605
+a53282604
+l88568170
+c15599004
+w22909125
+t96410162
+b35211317
+h25939562
+x74965298
+r18606656
+m14120823
+x94160401
+z89026336
+j86624231
+l40038618
+a53897778
+j19359496
+h53348689
+a24205044
+w65094634
+k88366983
+r31071606
+k47887719
+y89802132
+i87674568
+m72898718
+o82612519
+s50417770
+r12297175
+s18041840
+z59148354
+e56109154
+j26894722
+l12434274
+m78875468
+s64516134
+d49584097
+s15225631
+z79950658
+n31952651
+j34531623
+f24254876
+d77490371
+f64589089
+m29312347
+u28657540
+c47685221
+m90464223
+q25361061
+a51947590
+y15432902
+v26401398
+w79009107
+o23797158
+z32986341
+o10551576
+h34526011
+d43915266
+y56816220
+b70254631
+q54543298
+r13912436
+s15867949
+y90134979
+o73993855
+m66171374
+y24236681
+o81688957
+r68414238
+d18452057
+c56388522
+l19333704
+r93846746
+r39980014
+v49305659
+l31846414
+c72266607
+t41513020
+p26889998
+y60225199
+z90495577
+t91597547
+f62503903
+m66831585
+z88011412
+l68172329
+s57396678
+m68336728
+v68787939
+j78582546
+a31549919
+y48577409
+m29780630
+t41618645
+a94173376
+v63903041
+v69381409
+x55255951
+v95684469
+r76492107
+u42413413
+e63985359
+m84473894
+k19554863
+c39104599
+f80777471
+u66453170
+i78566913
+o22085918
+n35900829
+x56902568
+c65545754
+s95919726
+y36535209
+d39178478
+b68934517
+c36663148
+l98146580
+c49912867
+y44821128
+h66905567
+w65408252
+a84595268
+c31954782
+v51550936
+k62030431
+h36068473
+g29197931
+z69524620
+w41969390
+l96224692
+r83935905
+a53349834
+f13646029
+i46268560
+t72905840
+r75506558
+s93787664
+v83447447
+m11859120
+f16381112
+e30997096
+b25145604
+f52139920
+o81670007
+x62473676
+b60925333
+c79690413
+r51797346
+i12877366
+m92723340
+q46321285
+w78477108
+h74872755
+g43760391
+w30767345
+z76737816
+k81792035
+f82314333
+b42706467
+b27220032
+s67272065
+z46801495
+l57232545
+h32634829
+b20143969
+o41697461
+c88395299
+l91272837
+c62318232
+timestamp = 2023-03-30T18:01:39.150628200, A3Test:thousandInvalidLeadingLetters = 
+                              |--------------------jqwik--------------------
+tries = 1000                  | # of calls to property
+checks = 1000                 | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = PREVIOUS_SEED | use the previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 0          | # of all combined edge cases
+edge-cases#tried = 0          | # of edge cases tried in current run
+seed = 5220946302335056280    | random seed to reproduce generated values
+
+
+############ Logging method invocation #1 on mock/spy ########
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.A3Test.invalidIDs(A3Test.java:81)
+   has returned: "false" (java.lang.Boolean)
+
+A12345678
+############ Logging method invocation #2 on mock/spy ########
+   stubbed: -> at a3.A3Test.invalidIDs(A3Test.java:81)
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.Registration.name(a3.java:83)
+   has returned: "true" (java.lang.Boolean)
+
+############ Logging method invocation #3 on mock/spy ########
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.A3Test.invalidIDs(A3Test.java:87)
+   has returned: "false" (java.lang.Boolean)
+
+############ Logging method invocation #1 on mock/spy ########
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.A3Test.invalidIDs(A3Test.java:81)
+   has returned: "false" (java.lang.Boolean)
+
+null
+############ Logging method invocation #2 on mock/spy ########
+   stubbed: -> at a3.A3Test.invalidIDs(A3Test.java:81)
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.Registration.name(a3.java:83)
+   has returned: "true" (java.lang.Boolean)
+
+############ Logging method invocation #3 on mock/spy ########
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.A3Test.invalidIDs(A3Test.java:87)
+   has returned: "false" (java.lang.Boolean)
+
+############ Logging method invocation #1 on mock/spy ########
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.A3Test.invalidIDs(A3Test.java:81)
+   has returned: "false" (java.lang.Boolean)
+
+V12345678910
+############ Logging method invocation #2 on mock/spy ########
+   stubbed: -> at a3.A3Test.invalidIDs(A3Test.java:81)
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.Registration.name(a3.java:83)
+   has returned: "true" (java.lang.Boolean)
+
+############ Logging method invocation #3 on mock/spy ########
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.A3Test.invalidIDs(A3Test.java:87)
+   has returned: "false" (java.lang.Boolean)
+
+############ Logging method invocation #1 on mock/spy ########
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.A3Test.invalidIDs(A3Test.java:81)
+   has returned: "false" (java.lang.Boolean)
+
+V213zxchj
+############ Logging method invocation #2 on mock/spy ########
+   stubbed: -> at a3.A3Test.invalidIDs(A3Test.java:81)
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.Registration.name(a3.java:83)
+   has returned: "true" (java.lang.Boolean)
+
+############ Logging method invocation #3 on mock/spy ########
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.A3Test.invalidIDs(A3Test.java:87)
+   has returned: "false" (java.lang.Boolean)
+
+############ Logging method invocation #1 on mock/spy ########
+studentDatabaseConnection.nameFromIDNumber(
+    "V11111111"
+);
+   invoked: -> at a3.A3Test.validIDs(A3Test.java:104)
+   has returned: "null"
+
+############ Logging method invocation #2 on mock/spy ########
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.A3Test.validIDs(A3Test.java:107)
+   has returned: "false" (java.lang.Boolean)
+
+############ Logging method invocation #3 on mock/spy ########
+   stubbed: -> at a3.A3Test.validIDs(A3Test.java:107)
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.Registration.name(a3.java:83)
+   has returned: "true" (java.lang.Boolean)
+
+############ Logging method invocation #4 on mock/spy ########
+   stubbed: -> at a3.A3Test.validIDs(A3Test.java:104)
+studentDatabaseConnection.nameFromIDNumber(
+    "V11111111"
+);
+   invoked: -> at a3.Registration.name(a3.java:89)
+   has returned: "Andy Apple" (java.lang.String)
+
+Andy Apple
+############ Logging method invocation #5 on mock/spy ########
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.A3Test.validIDs(A3Test.java:110)
+   has returned: "false" (java.lang.Boolean)
+
+############ Logging method invocation #6 on mock/spy ########
+studentDatabaseConnection.nameFromIDNumber(
+    "V11111111"
+);
+   invoked: -> at a3.A3Test.validIDs(A3Test.java:111)
+   has returned: "null"
+
+############ Logging method invocation #1 on mock/spy ########
+studentDatabaseConnection.nameFromIDNumber(
+    "V22222222"
+);
+   invoked: -> at a3.A3Test.validIDs(A3Test.java:104)
+   has returned: "null"
+
+############ Logging method invocation #2 on mock/spy ########
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.A3Test.validIDs(A3Test.java:107)
+   has returned: "false" (java.lang.Boolean)
+
+############ Logging method invocation #3 on mock/spy ########
+   stubbed: -> at a3.A3Test.validIDs(A3Test.java:107)
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.Registration.name(a3.java:83)
+   has returned: "true" (java.lang.Boolean)
+
+############ Logging method invocation #4 on mock/spy ########
+   stubbed: -> at a3.A3Test.validIDs(A3Test.java:104)
+studentDatabaseConnection.nameFromIDNumber(
+    "V22222222"
+);
+   invoked: -> at a3.Registration.name(a3.java:89)
+   has returned: "Betty Banana" (java.lang.String)
+
+Betty Banana
+############ Logging method invocation #5 on mock/spy ########
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.A3Test.validIDs(A3Test.java:110)
+   has returned: "false" (java.lang.Boolean)
+
+############ Logging method invocation #6 on mock/spy ########
+studentDatabaseConnection.nameFromIDNumber(
+    "V22222222"
+);
+   invoked: -> at a3.A3Test.validIDs(A3Test.java:111)
+   has returned: "null"
+
+############ Logging method invocation #1 on mock/spy ########
+studentDatabaseConnection.nameFromIDNumber(
+    "V33333333"
+);
+   invoked: -> at a3.A3Test.validIDs(A3Test.java:104)
+   has returned: "null"
+
+############ Logging method invocation #2 on mock/spy ########
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.A3Test.validIDs(A3Test.java:107)
+   has returned: "false" (java.lang.Boolean)
+
+############ Logging method invocation #3 on mock/spy ########
+   stubbed: -> at a3.A3Test.validIDs(A3Test.java:107)
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.Registration.name(a3.java:83)
+   has returned: "true" (java.lang.Boolean)
+
+############ Logging method invocation #4 on mock/spy ########
+   stubbed: -> at a3.A3Test.validIDs(A3Test.java:104)
+studentDatabaseConnection.nameFromIDNumber(
+    "V33333333"
+);
+   invoked: -> at a3.Registration.name(a3.java:89)
+   has returned: "Cathy Cantaloupe" (java.lang.String)
+
+Cathy Cantaloupe
+############ Logging method invocation #5 on mock/spy ########
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.A3Test.validIDs(A3Test.java:110)
+   has returned: "false" (java.lang.Boolean)
+
+############ Logging method invocation #6 on mock/spy ########
+studentDatabaseConnection.nameFromIDNumber(
+    "V33333333"
+);
+   invoked: -> at a3.A3Test.validIDs(A3Test.java:111)
+   has returned: "null"
+
+############ Logging method invocation #1 on mock/spy ########
+studentDatabaseConnection.nameFromIDNumber(
+    "V44444444"
+);
+   invoked: -> at a3.A3Test.validIDs(A3Test.java:104)
+   has returned: "null"
+
+############ Logging method invocation #2 on mock/spy ########
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.A3Test.validIDs(A3Test.java:107)
+   has returned: "false" (java.lang.Boolean)
+
+############ Logging method invocation #3 on mock/spy ########
+   stubbed: -> at a3.A3Test.validIDs(A3Test.java:107)
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.Registration.name(a3.java:83)
+   has returned: "true" (java.lang.Boolean)
+
+############ Logging method invocation #4 on mock/spy ########
+   stubbed: -> at a3.A3Test.validIDs(A3Test.java:104)
+studentDatabaseConnection.nameFromIDNumber(
+    "V44444444"
+);
+   invoked: -> at a3.Registration.name(a3.java:89)
+   has returned: "Donald Durian" (java.lang.String)
+
+Donald Durian
+############ Logging method invocation #5 on mock/spy ########
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.A3Test.validIDs(A3Test.java:110)
+   has returned: "false" (java.lang.Boolean)
+
+############ Logging method invocation #6 on mock/spy ########
+studentDatabaseConnection.nameFromIDNumber(
+    "V44444444"
+);
+   invoked: -> at a3.A3Test.validIDs(A3Test.java:111)
+   has returned: "null"
+
+############ Logging method invocation #1 on mock/spy ########
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.A3Test.notInDatabase(A3Test.java:131)
+   has returned: "false" (java.lang.Boolean)
+
+############ Logging method invocation #2 on mock/spy ########
+studentDatabaseConnection.nameFromIDNumber(
+    "V51111111"
+);
+   invoked: -> at a3.A3Test.notInDatabase(A3Test.java:135)
+   has returned: "null"
+
+############ Logging method invocation #3 on mock/spy ########
+   stubbed: -> at a3.A3Test.notInDatabase(A3Test.java:131)
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.Registration.name(a3.java:83)
+   has returned: "true" (java.lang.Boolean)
+
+############ Logging method invocation #4 on mock/spy ########
+   stubbed: -> at a3.A3Test.notInDatabase(A3Test.java:135)
+studentDatabaseConnection.nameFromIDNumber(
+    "V51111111"
+);
+   invoked: -> at a3.Registration.name(a3.java:89)
+   has thrown: class a3.StudentNotFoundException
+
+############ Logging method invocation #5 on mock/spy ########
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.A3Test.notInDatabase(A3Test.java:140)
+   has returned: "false" (java.lang.Boolean)
+
+############ Logging method invocation #6 on mock/spy ########
+studentDatabaseConnection.nameFromIDNumber(
+    "V51111111"
+);
+   invoked: -> at a3.A3Test.notInDatabase(A3Test.java:141)
+   has returned: "null"
+
+############ Logging method invocation #1 on mock/spy ########
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.A3Test.notInDatabase(A3Test.java:131)
+   has returned: "false" (java.lang.Boolean)
+
+############ Logging method invocation #2 on mock/spy ########
+studentDatabaseConnection.nameFromIDNumber(
+    "V52222222"
+);
+   invoked: -> at a3.A3Test.notInDatabase(A3Test.java:135)
+   has returned: "null"
+
+############ Logging method invocation #3 on mock/spy ########
+   stubbed: -> at a3.A3Test.notInDatabase(A3Test.java:131)
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.Registration.name(a3.java:83)
+   has returned: "true" (java.lang.Boolean)
+
+############ Logging method invocation #4 on mock/spy ########
+   stubbed: -> at a3.A3Test.notInDatabase(A3Test.java:135)
+studentDatabaseConnection.nameFromIDNumber(
+    "V52222222"
+);
+   invoked: -> at a3.Registration.name(a3.java:89)
+   has thrown: class a3.StudentNotFoundException
+
+############ Logging method invocation #5 on mock/spy ########
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.A3Test.notInDatabase(A3Test.java:140)
+   has returned: "false" (java.lang.Boolean)
+
+############ Logging method invocation #6 on mock/spy ########
+studentDatabaseConnection.nameFromIDNumber(
+    "V52222222"
+);
+   invoked: -> at a3.A3Test.notInDatabase(A3Test.java:141)
+   has returned: "null"
+
+############ Logging method invocation #1 on mock/spy ########
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.A3Test.notInDatabase(A3Test.java:131)
+   has returned: "false" (java.lang.Boolean)
+
+############ Logging method invocation #2 on mock/spy ########
+studentDatabaseConnection.nameFromIDNumber(
+    "V53333333"
+);
+   invoked: -> at a3.A3Test.notInDatabase(A3Test.java:135)
+   has returned: "null"
+
+############ Logging method invocation #3 on mock/spy ########
+   stubbed: -> at a3.A3Test.notInDatabase(A3Test.java:131)
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.Registration.name(a3.java:83)
+   has returned: "true" (java.lang.Boolean)
+
+############ Logging method invocation #4 on mock/spy ########
+   stubbed: -> at a3.A3Test.notInDatabase(A3Test.java:135)
+studentDatabaseConnection.nameFromIDNumber(
+    "V53333333"
+);
+   invoked: -> at a3.Registration.name(a3.java:89)
+   has thrown: class a3.StudentNotFoundException
+
+############ Logging method invocation #5 on mock/spy ########
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.A3Test.notInDatabase(A3Test.java:140)
+   has returned: "false" (java.lang.Boolean)
+
+############ Logging method invocation #6 on mock/spy ########
+studentDatabaseConnection.nameFromIDNumber(
+    "V53333333"
+);
+   invoked: -> at a3.A3Test.notInDatabase(A3Test.java:141)
+   has returned: "null"
+
+############ Logging method invocation #1 on mock/spy ########
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.A3Test.notInDatabase(A3Test.java:131)
+   has returned: "false" (java.lang.Boolean)
+
+############ Logging method invocation #2 on mock/spy ########
+studentDatabaseConnection.nameFromIDNumber(
+    "V54444444"
+);
+   invoked: -> at a3.A3Test.notInDatabase(A3Test.java:135)
+   has returned: "null"
+
+############ Logging method invocation #3 on mock/spy ########
+   stubbed: -> at a3.A3Test.notInDatabase(A3Test.java:131)
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.Registration.name(a3.java:83)
+   has returned: "true" (java.lang.Boolean)
+
+############ Logging method invocation #4 on mock/spy ########
+   stubbed: -> at a3.A3Test.notInDatabase(A3Test.java:135)
+studentDatabaseConnection.nameFromIDNumber(
+    "V54444444"
+);
+   invoked: -> at a3.Registration.name(a3.java:89)
+   has thrown: class a3.StudentNotFoundException
+
+############ Logging method invocation #5 on mock/spy ########
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.A3Test.notInDatabase(A3Test.java:140)
+   has returned: "false" (java.lang.Boolean)
+
+############ Logging method invocation #6 on mock/spy ########
+studentDatabaseConnection.nameFromIDNumber(
+    "V54444444"
+);
+   invoked: -> at a3.A3Test.notInDatabase(A3Test.java:141)
+   has returned: "null"
+
+############ Logging method invocation #1 on mock/spy ########
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.A3Test.testNoConnection(A3Test.java:50)
+   has returned: "false" (java.lang.Boolean)
+
+############ Logging method invocation #2 on mock/spy ########
+   stubbed: -> at a3.A3Test.testNoConnection(A3Test.java:50)
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.Registration.name(a3.java:83)
+   has returned: "false" (java.lang.Boolean)
+
+############ Logging method invocation #3 on mock/spy ########
+   stubbed: -> at a3.A3Test.testNoConnection(A3Test.java:50)
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.A3Test.testNoConnection(A3Test.java:50)
+   has returned: "false" (java.lang.Boolean)
+
+############ Logging method invocation #4 on mock/spy ########
+   stubbed: -> at a3.A3Test.testNoConnection(A3Test.java:50)
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.Registration.name(a3.java:83)
+   has returned: "false" (java.lang.Boolean)
+
+############ Logging method invocation #5 on mock/spy ########
+   stubbed: -> at a3.A3Test.testNoConnection(A3Test.java:50)
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.A3Test.testNoConnection(A3Test.java:50)
+   has returned: "false" (java.lang.Boolean)
+
+############ Logging method invocation #6 on mock/spy ########
+   stubbed: -> at a3.A3Test.testNoConnection(A3Test.java:50)
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.Registration.name(a3.java:83)
+   has returned: "false" (java.lang.Boolean)
+
+############ Logging method invocation #7 on mock/spy ########
+   stubbed: -> at a3.A3Test.testNoConnection(A3Test.java:50)
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.A3Test.testNoConnection(A3Test.java:50)
+   has returned: "false" (java.lang.Boolean)
+
+############ Logging method invocation #8 on mock/spy ########
+   stubbed: -> at a3.A3Test.testNoConnection(A3Test.java:50)
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.Registration.name(a3.java:83)
+   has returned: "false" (java.lang.Boolean)
+
+############ Logging method invocation #9 on mock/spy ########
+studentDatabaseConnection.isConnected();
+   invoked: -> at a3.A3Test.testNoConnection(A3Test.java:59)
+   has returned: "false" (java.lang.Boolean)
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

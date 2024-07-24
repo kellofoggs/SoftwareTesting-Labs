@@ -1,0 +1,18 @@
+Title: False validation
+
+Submitter: Kelly Ojukwu
+email address: kojukwu2003@gmail.com
+
+Summary of bug:
+The program says that a license plate for a non motorcycle is valid if it has 7 characters and no hyphen
+
+Expected behaviour:
+Validate the message for a license plate, in this case say a 7-character message without a hyphen is invalid
+
+Actual behaviour: Claims a 7-character message w/o a hyphen is valid
+
+Steps to Reproduce:
+Choose a license plate message with 7 valid letters and/or digits for a non motorcycle. Make sure to not put any hyphens
+
+
+Severity: Very severe, breaks the rules of the test

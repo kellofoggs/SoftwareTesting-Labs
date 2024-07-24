@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - TodoApplicationTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>TodoApplicationTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/lab06.html">lab06</a> &gt; TodoApplicationTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.608s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">completeAllWithThreeTodos()</td>
+<td class="success">0.608s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>############ Logging method invocation #1 on mock/spy ########
+personService.findUsernameById(1L);
+   invoked: -&gt; at lab06.TodoApplicationTest.completeAllWithThreeTodos(TodoApplicationTest.java:89)
+   has returned: &quot;null&quot;
+
+############ Logging method invocation #1 on mock/spy ########
+todoService.retrieveTodos(&quot;SomeUser&quot;);
+   invoked: -&gt; at lab06.TodoApplicationTest.completeAllWithThreeTodos(TodoApplicationTest.java:90)
+   has returned: &quot;[]&quot; (java.util.LinkedList)
+
+############ Logging method invocation #2 on mock/spy ########
+   stubbed: -&gt; at lab06.TodoApplicationTest.completeAllWithThreeTodos(TodoApplicationTest.java:89)
+personService.findUsernameById(1L);
+   invoked: -&gt; at lab06.TodoApplication.retrieveTodos(TodoApplication.java:57)
+   has returned: &quot;SomeUser&quot; (java.lang.String)
+
+############ Logging method invocation #2 on mock/spy ########
+   stubbed: -&gt; at lab06.TodoApplicationTest.completeAllWithThreeTodos(TodoApplicationTest.java:90)
+todoService.retrieveTodos(&quot;SomeUser&quot;);
+   invoked: -&gt; at lab06.TodoApplication.retrieveTodos(TodoApplication.java:58)
+   has returned: &quot;[Wake up, Test the code, Celebrate the victory!]&quot; (java.util.ImmutableCollections$ListN)
+
+############ Logging method invocation #3 on mock/spy ########
+   stubbed: -&gt; at lab06.TodoApplicationTest.completeAllWithThreeTodos(TodoApplicationTest.java:89)
+personService.findUsernameById(1L);
+   invoked: -&gt; at lab06.TodoApplication.completeAllTodos(TodoApplication.java:69)
+   has returned: &quot;SomeUser&quot; (java.lang.String)
+
+############ Logging method invocation #3 on mock/spy ########
+   stubbed: -&gt; at lab06.TodoApplicationTest.completeAllWithThreeTodos(TodoApplicationTest.java:90)
+todoService.retrieveTodos(&quot;SomeUser&quot;);
+   invoked: -&gt; at lab06.TodoApplication.completeAllTodos(TodoApplication.java:70)
+   has returned: &quot;[Wake up, Test the code, Celebrate the victory!]&quot; (java.util.ImmutableCollections$ListN)
+
+############ Logging method invocation #4 on mock/spy ########
+todoService.completeTodo(&quot;Wake up&quot;);
+   invoked: -&gt; at lab06.TodoApplication.completeAllTodos(TodoApplication.java:72)
+   has returned: &quot;null&quot;
+
+############ Logging method invocation #5 on mock/spy ########
+todoService.completeTodo(&quot;Test the code&quot;);
+   invoked: -&gt; at lab06.TodoApplication.completeAllTodos(TodoApplication.java:72)
+   has returned: &quot;null&quot;
+
+############ Logging method invocation #6 on mock/spy ########
+todoService.completeTodo(
+    &quot;Celebrate the victory!&quot;
+);
+   invoked: -&gt; at lab06.TodoApplication.completeAllTodos(TodoApplication.java:72)
+   has returned: &quot;null&quot;
+
+############ Logging method invocation #7 on mock/spy ########
+todoService.completeTodo(null);
+   invoked: -&gt; at lab06.TodoApplicationTest.completeAllWithThreeTodos(TodoApplicationTest.java:95)
+   has returned: &quot;null&quot;
+
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.3.3</a> at Mar 5, 2023, 11:58:03 PM</p>
+</div>
+</div>
+</body>
+</html>
